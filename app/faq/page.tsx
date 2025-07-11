@@ -60,12 +60,14 @@ export default function FAQPage() {
     <div className="min-h-screen bg-gradient-to-br from-pink-50 to-blue-50">
       {/* Header */}
       <header className="bg-white/80 backdrop-blur-sm shadow-sm">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-4">
+        <div className="max-w-4xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="text-2xl font-bold text-pink-400 font-pacifico hover:text-pink-500 transition-colors">
               LinkMe
             </Link>
-            <div className="text-xs sm:text-sm text-gray-600 bg-pink-100 px-3 py-1 rounded-full">FAQ</div>
+            <div className="flex items-center space-x-3">
+              <div className="text-sm text-gray-600 bg-pink-100 px-3 py-1 rounded-full">FAQ</div>
+            </div>
           </div>
         </div>
       </header>
