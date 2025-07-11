@@ -78,7 +78,6 @@ export const handler: Handler = async (event) => {
               <h3 style="color: #f472b6; font-size: 18px; margin-bottom: 15px;">✨ 先行登録特典 ✨</h3>
               <ul style="color: #333; font-size: 16px; line-height: 1.6; margin: 0; padding-left: 20px;">
                 <li>リリース時の優先案内</li>
-                <li>初回登録時の特別特典</li>
                 <li>β版テスト参加権</li>
               </ul>
             </div>

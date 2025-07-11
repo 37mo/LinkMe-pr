@@ -77,10 +77,7 @@ export const handler: Handler = async (event) => {
               <h3 style="color: #60a5fa; font-size: 18px; margin-bottom: 15px;">✨ 主催者向け特典 ✨</h3>
               <ul style="color: #333; font-size: 16px; line-height: 1.6; margin: 0; padding-left: 20px;">
                 <li>優先的なサービス開始案内</li>
-                <li>初回イベント主催時の特別サポート</li>
-                <li>β版テスト参加権（フィードバック特典付き）</li>
-                <li>主催者向け限定セミナーへの無料参加</li>
-                <li>集客コンサルティング初回無料相談</li>
+                <li>β版テスト参加権</li>
               </ul>
             </div>
             
@@ -88,8 +85,6 @@ export const handler: Handler = async (event) => {
               <h3 style="color: #60a5fa; font-size: 18px; margin-bottom: 15px;">🚀 今後の流れ</h3>
               <ol style="color: #333; font-size: 16px; line-height: 1.6; margin: 0; padding-left: 20px;">
                 <li><strong>サービス準備完了通知：</strong>リリース1週間前にご連絡</li>
-                <li><strong>主催者向け説明会：</strong>使い方とコツをご紹介</li>
-                <li><strong>イベント企画サポート：</strong>初回は無料でコンサル</li>
                 <li><strong>サービス開始：</strong>すぐにイベント作成可能</li>
               </ol>
             </div>
