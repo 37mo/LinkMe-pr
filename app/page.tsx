@@ -83,7 +83,7 @@ export default function LinkMePressRelease() {
           </div>
           <div className="flex justify-center mb-8">
             <Image 
-              src="https://static.readdy.ai/image/41558152d6f267d370b9c0eb09d64528/cbdebc5051ca753c8d5d6b030380d1f6.png"
+              src="/images/linkme-comic.png"
               alt="LinkMeの漫画説明"
               width={800}
               height={600}
