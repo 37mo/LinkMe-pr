@@ -252,7 +252,7 @@ export default function LinkMePressRelease() {
           <div className="bg-pink-50 rounded-xl sm:rounded-2xl p-3 sm:p-8 max-w-sm sm:max-w-md mx-auto mb-3 sm:mb-6 border border-pink-200">
             <h3 className="text-base sm:text-xl font-bold mb-2 sm:mb-4 text-gray-800">✨ 先行登録受付中 ✨</h3>
             <p className="text-gray-700 text-xs sm:text-sm mb-3 sm:mb-6 leading-relaxed">
-              先行登録は<span className="font-bold text-pink-400">完全無料</span>！<br className="sm:hidden" />リリース時にご連絡し、<br />
+              先行登録は<span className="font-bold text-pink-400">完全無料！</span><br />
               <span className="font-bold text-pink-400">お得な特典</span>をご用意しています 🎁
             </p>
             {submitted ? (
@@ -303,7 +303,7 @@ export default function LinkMePressRelease() {
         <div className="bg-gradient-to-r from-pink-50 to-blue-50 rounded-xl sm:rounded-3xl p-4 sm:p-8 mt-6 sm:mt-12 shadow-sm border border-pink-100">
           <div className="text-center mb-4 sm:mb-6">
             <h2 className="text-lg sm:text-2xl font-bold text-gray-800 mb-2">その他のサービス</h2>
-            <p className="text-sm sm:text-sm text-gray-600">LinkMeの全サービスをチェック</p>
+            <p className="text-xs sm:text-sm text-gray-600">LinkMeの全サービスをチェック</p>
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6">
@@ -316,10 +316,10 @@ export default function LinkMePressRelease() {
                   </div>
                   <div>
                     <h3 className="text-sm sm:text-lg font-bold text-gray-800 group-hover:text-blue-500 transition-colors">LinkMe for Hosts</h3>
-                    <p className="text-sm sm:text-sm text-blue-500">主催者向けサービス</p>
+                    <p className="text-xs sm:text-sm text-blue-500">主催者向けサービス</p>
                   </div>
                 </div>
-                <p className="text-sm sm:text-sm text-gray-600 leading-relaxed">
+                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
                   質の高い参加者だけが集まるイベント主催を実現。AIマッチング技術で理想的な集客を。
                 </p>
               </div>
@@ -334,10 +334,10 @@ export default function LinkMePressRelease() {
                   </div>
                   <div>
                     <h3 className="text-sm sm:text-lg font-bold text-gray-800 group-hover:text-pink-500 transition-colors">よくある質問</h3>
-                    <p className="text-sm sm:text-sm text-pink-500">FAQ・サポート</p>
+                    <p className="text-xs sm:text-sm text-pink-500">FAQ・サポート</p>
                   </div>
                 </div>
-                <p className="text-sm sm:text-sm text-gray-600 leading-relaxed">
+                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
                   LinkMeについてのよくあるご質問と回答。安心してサービスをご利用いただけます。
                 </p>
               </div>

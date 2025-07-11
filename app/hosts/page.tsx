@@ -269,7 +269,7 @@ export default function LinkMeHostsPage() {
           <div className="bg-blue-50 rounded-xl sm:rounded-2xl p-3 sm:p-8 max-w-sm sm:max-w-md mx-auto mb-3 sm:mb-6 border border-blue-200">
             <h3 className="text-base sm:text-xl font-bold mb-2 sm:mb-4 text-gray-800">✨ 主催者登録受付中 ✨</h3>
             <p className="text-gray-700 text-sm sm:text-sm mb-3 sm:mb-6 leading-relaxed">
-              主催者登録は<span className="font-bold text-blue-400">完全無料</span>！<br className="sm:hidden" />リリース時にご連絡し、<br />
+              主催者登録は<span className="font-bold text-blue-400">完全無料！</span><br />
               <span className="font-bold text-blue-400">特別サポート</span>をご提供します 🎁
             </p>
             {submitted ? (
