@@ -151,13 +151,15 @@ export default function LinkMePressRelease() {
           </div>
 
           {/* Quote Section */}
-          <div className="bg-gradient-to-r from-pink-100 to-pink-200 rounded-2xl p-8 text-gray-800">
+          <div className="bg-gradient-to-r from-pink-100 to-pink-200 rounded-xl sm:rounded-2xl p-4 sm:p-8 text-gray-800">
             <div className="text-center">
-              <div className="text-5xl mb-4">💬</div>
-              <blockquote className="text-xl font-medium mb-6 leading-relaxed">
-                イベントは、ただの参加ではなく&ldquo;人生のきっかけ&rdquo;になる。LinkMeは、そんな瞬間を誰にでも届けたいと願っています ✨
+              <div className="text-3xl sm:text-5xl mb-3 sm:mb-4">💬</div>
+              <blockquote className="text-sm sm:text-xl font-medium mb-4 sm:mb-6 leading-relaxed px-2">
+                イベントは、ただの参加ではなく&ldquo;人生のきっかけ&rdquo;になる。
+                <br />
+                LinkMeは、そんな瞬間を誰にでも届けたいと願っています ✨
               </blockquote>
-              <cite className="text-pink-400 bg-pink-50 px-4 py-2 rounded-full">— LinkMeプロダクトマネージャー・岡本</cite>
+              <cite className="text-pink-400 bg-pink-50 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm">— LinkMeプロダクトマネージャー・岡本</cite>
             </div>
           </div>
 
@@ -201,11 +203,11 @@ export default function LinkMePressRelease() {
                 <h2 className="text-base sm:text-xl font-bold text-gray-800 mb-2 sm:mb-4 text-center sm:text-left flex items-center justify-center sm:justify-start">
                   お客様の声 <span className="ml-2">💝</span>
                 </h2>
-                <div className="bg-pink-50 p-6 rounded-2xl border-2 border-dashed border-pink-200">
-                  <p className="text-gray-700 leading-relaxed italic mb-4 text-lg">
+                <div className="bg-pink-50 p-4 sm:p-6 rounded-xl sm:rounded-2xl border-2 border-dashed border-pink-200">
+                  <p className="text-gray-700 leading-relaxed italic mb-3 sm:mb-4 text-sm sm:text-lg">
                     &ldquo;まさに今の自分にぴったりなイベントが届いたのに驚きました。おかげで、東京で初めて&lsquo;居場所&rsquo;を感じられた気がします 🥰&rdquo;
                   </p>
-                  <div className="text-sm text-gray-600 bg-white px-3 py-1 rounded-full inline-block">
+                  <div className="text-xs sm:text-sm text-gray-600 bg-white px-2 sm:px-3 py-1 rounded-full inline-block">
                     26歳・女性・会社員 ✨
                   </div>
                 </div>

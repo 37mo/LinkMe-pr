@@ -183,11 +183,11 @@ export default function LinkMeHostsPage() {
                 <h2 className="text-base sm:text-xl font-bold text-gray-800 mb-2 sm:mb-4 text-center sm:text-left flex items-center justify-center sm:justify-start">
                   主催者の声 <span className="ml-2">💼</span>
                 </h2>
-                <div className="bg-blue-50 p-6 rounded-2xl border-2 border-dashed border-blue-200">
-                  <p className="text-gray-700 leading-relaxed italic mb-4 text-lg">
+                <div className="bg-blue-50 p-4 sm:p-6 rounded-xl sm:rounded-2xl border-2 border-dashed border-blue-200">
+                  <p className="text-gray-700 leading-relaxed italic mb-3 sm:mb-4 text-sm sm:text-lg">
                     「これまで20人集客のために100人にアプローチしていましたが、LinkMe for Hostsでは本当に興味を持つ15人が自然と集まりました。イベントの質も満足度も格段に向上して、継続開催が楽しくなりました！ 😊」
                   </p>
-                  <div className="text-sm text-gray-600 bg-white px-3 py-1 rounded-full inline-block">
+                  <div className="text-xs sm:text-sm text-gray-600 bg-white px-2 sm:px-3 py-1 rounded-full inline-block">
                     読書会主催・田中さん（32歳） 📚
                   </div>
                 </div>
@@ -196,15 +196,15 @@ export default function LinkMeHostsPage() {
           </div>
 
           {/* Quote Section */}
-          <div className="bg-gradient-to-r from-blue-100 to-sky-200 rounded-2xl p-8 text-gray-800">
+          <div className="bg-gradient-to-r from-blue-100 to-sky-200 rounded-xl sm:rounded-2xl p-4 sm:p-8 text-gray-800">
             <div className="text-center">
-              <div className="text-5xl mb-4">💙</div>
-              <blockquote className="text-xl font-medium mb-6 leading-relaxed">
+              <div className="text-3xl sm:text-5xl mb-3 sm:mb-4">💙</div>
+              <blockquote className="text-sm sm:text-xl font-medium mb-4 sm:mb-6 leading-relaxed px-2">
                 本当に価値あるイベントは、適切な人が適切な場所に集まった時に生まれる。
                 <br />
                 LinkMe for Hostsは、そんな&ldquo;奇跡の瞬間&rdquo;を確実に創り出します ✨
               </blockquote>
-              <cite className="text-blue-400 bg-blue-50 px-4 py-2 rounded-full">— LinkMe for Hosts プロダクトリード・水本</cite>
+              <cite className="text-blue-400 bg-blue-50 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm">— LinkMe for Hosts プロダクトリード・水本</cite>
             </div>
           </div>
 
