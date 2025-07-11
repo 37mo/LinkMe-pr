@@ -1,49 +1,61 @@
-import { Handler } from '@netlify/functions';
-import { Resend } from 'resend';
+import { Handler } from "@netlify/functions";
+import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const handler: Handler = async (event, context) => {
   // CORS headers
   const headers = {
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Headers': 'Content-Type',
-    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
   };
 
   // Handle preflight requests
-  if (event.httpMethod === 'OPTIONS') {
+  if (event.httpMethod === "OPTIONS") {
     return {
       statusCode: 200,
       headers,
-      body: '',
+      body: "",
     };
   }
 
-  if (event.httpMethod !== 'POST') {
+  if (event.httpMethod !== "POST") {
     return {
       statusCode: 405,
       headers,
-      body: JSON.stringify({ error: 'Method not allowed' }),
+      body: JSON.stringify({ error: "Method not allowed" }),
     };
   }
 
   try {
-    const { email, name } = JSON.parse(event.body || '{}');
+    const { email, name } = JSON.parse(event.body || "{}");
+
+    // API key の存在確認
+    if (!process.env.RESEND_API_KEY) {
+      console.error("RESEND_API_KEY is not set");
+      return {
+        statusCode: 500,
+        headers,
+        body: JSON.stringify({
+          error: "サーバー設定エラー: API Key が設定されていません",
+        }),
+      };
+    }
 
     if (!email) {
       return {
         statusCode: 400,
         headers,
-        body: JSON.stringify({ error: 'メールアドレスが必要です' }),
+        body: JSON.stringify({ error: "メールアドレスが必要です" }),
       };
     }
 
     // 先行登録の確認メールを送信
     const { data, error } = await resend.emails.send({
-      from: 'LinkMe <noreply@linkme.app>',
+      from: "LinkMe <linkme@37mo.com>",
       to: [email],
-      subject: '🎉 LinkMe先行登録ありがとうございます！',
+      subject: "🎉 LinkMe先行登録ありがとうございます！",
       html: `
         <div style="font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #fef7f7;">
           <div style="text-align: center; margin-bottom: 30px;">
@@ -55,7 +67,7 @@ export const handler: Handler = async (event, context) => {
             <h2 style="color: #ec4089; font-size: 24px; margin-bottom: 20px; text-align: center;">🎉 先行登録ありがとうございます！</h2>
             
             <p style="color: #333; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
-              ${name ? `${name}さん、` : ''}この度はLinkMeの先行登録をしていただき、ありがとうございます！
+              ${name ? `${name}さん、` : ""}この度はLinkMeの先行登録をしていただき、ありがとうございます！
             </p>
             
             <p style="color: #333; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
@@ -84,33 +96,35 @@ export const handler: Handler = async (event, context) => {
             </div>
           </div>
         </div>
-      `
+      `,
     });
 
     if (error) {
-      console.error('Resend error:', error);
+      console.error("Resend error:", error);
       return {
         statusCode: 500,
         headers,
-        body: JSON.stringify({ error: 'メール送信に失敗しました' }),
+        body: JSON.stringify({
+          error: "メール送信に失敗しました",
+          details: error.message || error,
+        }),
       };
     }
 
     return {
       statusCode: 200,
       headers,
-      body: JSON.stringify({ 
-        message: '先行登録が完了しました。確認メールをお送りしました。',
-        emailId: data?.id 
+      body: JSON.stringify({
+        message: "先行登録が完了しました。確認メールをお送りしました。",
+        emailId: data?.id,
       }),
     };
-
   } catch (error) {
-    console.error('Registration error:', error);
+    console.error("Registration error:", error);
     return {
       statusCode: 500,
       headers,
-      body: JSON.stringify({ error: 'エラーが発生しました' }),
+      body: JSON.stringify({ error: "エラーが発生しました" }),
     };
   }
 };
