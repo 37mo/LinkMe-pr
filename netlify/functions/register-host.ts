@@ -135,7 +135,7 @@ export const handler: Handler = async (event) => {
         emailId: data?.id,
       }),
     };
-  } catch (error) {
+  } catch {
     return {
       statusCode: 500,
       headers,

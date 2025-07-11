@@ -3,7 +3,7 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export const handler: Handler = async (event, context) => {
+export const handler: Handler = async (event) => {
   // CORS headers
   const headers = {
     "Access-Control-Allow-Origin": "*",
@@ -57,7 +57,7 @@ export const handler: Handler = async (event, context) => {
       to: [email],
       subject: "🎉 LinkMe先行登録ありがとうございます！",
       html: `
-        <div style="font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: linear-gradient(to bottom right, #fdf2f8, #fce7f3);">
+        <div style="font-family: 'Noto Sans JP', sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: linear-gradient(to bottom right, #fdf2f8, #fce7f3);">
           <div style="text-align: center; margin-bottom: 30px;">
             <h1 style="color: #f472b6; font-size: 28px; margin-bottom: 10px;">LinkMe</h1>
             <p style="color: #666; font-size: 16px;">あなたにぴったりのイベントをお届け</p>
