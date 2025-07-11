@@ -1,0 +1,85 @@
+import { NextRequest, NextResponse } from 'next/server';
+import { Resend } from 'resend';
+
+const resend = new Resend(process.env.RESEND_API_KEY);
+
+export async function POST(request: NextRequest) {
+  try {
+    const { email, name } = await request.json();
+
+    if (!email) {
+      return NextResponse.json(
+        { error: 'メールアドレスが必要です' },
+        { status: 400 }
+      );
+    }
+
+    // 先行登録の確認メールを送信
+    const { data, error } = await resend.emails.send({
+      from: 'LinkMe <noreply@linkme.app>',
+      to: [email],
+      subject: '🎉 LinkMe先行登録ありがとうございます！',
+      html: `
+        <div style="font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #fef7f7;">
+          <div style="text-align: center; margin-bottom: 30px;">
+            <h1 style="color: #ec4089; font-size: 28px; margin-bottom: 10px;">LinkMe</h1>
+            <p style="color: #666; font-size: 16px;">あなたにぴったりのイベントをお届け</p>
+          </div>
+          
+          <div style="background-color: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+            <h2 style="color: #ec4089; font-size: 24px; margin-bottom: 20px; text-align: center;">🎉 先行登録ありがとうございます！</h2>
+            
+            <p style="color: #333; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
+              ${name ? `${name}さん、` : ''}この度はLinkMeの先行登録をしていただき、ありがとうございます！
+            </p>
+            
+            <p style="color: #333; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
+              LinkMeは、あなたの価値観や興味関心に基づいて、自動的にイベントをレコメンドするマッチング型イベントアプリです。
+            </p>
+            
+            <div style="background-color: #fef7f7; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h3 style="color: #ec4089; font-size: 18px; margin-bottom: 15px;">✨ 先行登録特典 ✨</h3>
+              <ul style="color: #333; font-size: 16px; line-height: 1.6; margin: 0; padding-left: 20px;">
+                <li>リリース時の優先案内</li>
+                <li>初回登録時の特別特典</li>
+                <li>β版テスト参加権</li>
+              </ul>
+            </div>
+            
+            <p style="color: #333; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
+              サービスの準備が整い次第、改めてご連絡させていただきます。<br>
+              今しばらくお待ちください 💕
+            </p>
+            
+            <div style="text-align: center; margin-top: 30px;">
+              <p style="color: #666; font-size: 14px;">
+                運営会社：株式会社みなも<br>
+                <a href="https://37mo.com/" style="color: #ec4089; text-decoration: none;">https://37mo.com/</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      `
+    });
+
+    if (error) {
+      console.error('Resend error:', error);
+      return NextResponse.json(
+        { error: 'メール送信に失敗しました' },
+        { status: 500 }
+      );
+    }
+
+    return NextResponse.json({ 
+      message: '先行登録が完了しました。確認メールをお送りしました。',
+      emailId: data?.id 
+    });
+
+  } catch (error) {
+    console.error('Registration error:', error);
+    return NextResponse.json(
+      { error: 'エラーが発生しました' },
+      { status: 500 }
+    );
+  }
+}
