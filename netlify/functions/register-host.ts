@@ -75,7 +75,7 @@ export const handler: Handler = async (event) => {
             
             <div style="background: linear-gradient(to right, #eff6ff, #dbeafe); padding: 20px; border-radius: 8px; margin: 20px 0;">
               <h3 style="color: #60a5fa; font-size: 18px; margin-bottom: 15px;">✨ 主催者向け特典 ✨</h3>
-              <ul style="color: #333; font-size: 16px; line-height: 1.6; margin: 0; padding-left: 20px;">
+              <ul style="color: #1f2937; font-size: 16px; line-height: 1.6; margin: 0; padding-left: 20px;">
                 <li>優先的なサービス開始案内</li>
                 <li>β版テスト参加権</li>
               </ul>
@@ -83,7 +83,7 @@ export const handler: Handler = async (event) => {
             
             <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #60a5fa;">
               <h3 style="color: #60a5fa; font-size: 18px; margin-bottom: 15px;">🚀 今後の流れ</h3>
-              <ol style="color: #333; font-size: 16px; line-height: 1.6; margin: 0; padding-left: 20px;">
+              <ol style="color: #1f2937; font-size: 16px; line-height: 1.6; margin: 0; padding-left: 20px;">
                 <li><strong>サービス準備完了通知：</strong>リリース1週間前にご連絡</li>
                 <li><strong>サービス開始：</strong>すぐにイベント作成可能</li>
               </ol>
@@ -101,10 +101,10 @@ export const handler: Handler = async (event) => {
             </p>
             
             <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0; text-align: center;">
-              <h3 style="color: #60a5fa; font-size: 18px; margin-bottom: 15px;">🌟 詳細はWebサイトでチェック！</h3>
+              <h3 style="color: #333; font-size: 18px; margin-bottom: 15px;">🌟 詳細はWebサイトでチェック！</h3>
               <div style="margin-bottom: 10px;">
                 <a href="https://linkme.37mo.com/hosts" style="color: #60a5fa; text-decoration: none; font-weight: bold; font-size: 16px;">
-                  🎯 LinkMe for Hosts（主催者向け）
+                  🎯 LinkMe for Hosts
                 </a>
               </div>
             </div>
