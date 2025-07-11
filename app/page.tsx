@@ -183,8 +183,8 @@ export default function LinkMePressRelease() {
           {/* Customer Testimonial */}
           <div className="bg-white/90 backdrop-blur-sm rounded-xl sm:rounded-2xl shadow-sm p-3 sm:p-8 border border-pink-100">
             <div className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-6">
-              <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center flex-shrink-0">
-                <span className="text-3xl">😊</span>
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-pink-100 rounded-full flex items-center justify-center flex-shrink-0 self-center sm:self-start">
+                <span className="text-2xl sm:text-3xl">😊</span>
               </div>
               <div className="flex-1">
                 <h2 className="text-base sm:text-xl font-bold text-gray-800 mb-2 sm:mb-4 text-center sm:text-left flex items-center justify-center sm:justify-start">
