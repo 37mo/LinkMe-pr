@@ -146,7 +146,7 @@ export default function LinkMePressRelease() {
               <blockquote className="text-xl font-medium mb-6 leading-relaxed">
                 イベントは、ただの参加ではなく"人生のきっかけ"になる。LinkMeは、そんな瞬間を誰にでも届けたいと願っています ✨
               </blockquote>
-              <cite className="text-pink-400 bg-pink-50 px-4 py-2 rounded-full">— LinkMeプロダクトマネージャー・中川</cite>
+              <cite className="text-pink-400 bg-pink-50 px-4 py-2 rounded-full">— LinkMeプロダクトマネージャー・岡本</cite>
             </div>
           </div>
 
@@ -169,7 +169,7 @@ export default function LinkMePressRelease() {
                   <div className="bg-pink-100 px-4 py-2 rounded-full text-pink-500 font-medium text-sm">
                     📱 簡単登録
                   </div>
-                  <div className="bg-blue-100 px-4 py-2 rounded-full text-blue-500 font-medium text-sm">
+                  <div className="bg-pink-100 px-4 py-2 rounded-full text-pink-500 font-medium text-sm">
                     🧠 性格診断
                   </div>
                   <div className="bg-pink-100 px-4 py-2 rounded-full text-pink-500 font-medium text-sm">
@@ -288,7 +288,7 @@ export default function LinkMePressRelease() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-pink-100 to-blue-100 py-12">
+      <footer className="bg-gradient-to-r from-pink-100 to-pink-200 py-12">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <div className="text-3xl font-bold mb-4 font-pacifico text-pink-400">LinkMe</div>
           <p className="text-gray-700 mb-6">あなたにぴったりのイベントをお届けします 💕</p>

@@ -2,12 +2,12 @@
 <defs>
 <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
 <stop offset="0%" style="stop-color:#fdf2f8;stop-opacity:1" />
-<stop offset="100%" style="stop-color:#eff6ff;stop-opacity:1" />
+<stop offset="100%" style="stop-color:#fce7f3;stop-opacity:1" />
 </linearGradient>
 </defs>
 <rect width="32" height="32" rx="8" fill="url(#bg-gradient)"/>
 <path d="M16 8C9 8 8 9 8 16C8 23 9 24 16 24C23 24 24 23 24 16C24 9 23 8 16 8Z" fill="#FFFFFF"/>
 <path d="M12 13C12 11.8954 12.8954 11 14 11C15.1046 11 16 11.8954 16 13C16 14.1046 15.1046 15 14 15C12.8954 15 12 14.1046 12 13Z" fill="#f472b6"/>
-<path d="M16 13C16 11.8954 16.8954 11 18 11C19.1046 11 20 11.8954 20 13C20 14.1046 19.1046 15 18 15C16.8954 15 16 14.1046 16 13Z" fill="#60a5fa"/>
+<path d="M16 13C16 11.8954 16.8954 11 18 11C19.1046 11 20 11.8954 20 13C20 14.1046 19.1046 15 18 15C16.8954 15 16 14.1046 16 13Z" fill="#f472b6"/>
 <path d="M11 19C11 17.5 13.5 16 16 16C18.5 16 21 17.5 21 19C21 20.5 18.5 21 16 21C13.5 21 11 20.5 11 19Z" fill="#f472b6"/>
 </svg>
