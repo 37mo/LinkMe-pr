@@ -203,9 +203,9 @@ export default function LinkMePressRelease() {
           </div>
 
           {/* Service Information */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl shadow-sm p-8 border border-indigo-100">
+          <div className="bg-white/90 backdrop-blur-sm rounded-2xl shadow-sm p-8 border border-pink-100">
             <div className="flex items-start space-x-6">
-              <div className="w-14 h-14 bg-indigo-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-14 h-14 bg-pink-100 rounded-full flex items-center justify-center flex-shrink-0">
                 <span className="text-2xl">ℹ️</span>
               </div>
               <div className="flex-1">
@@ -213,11 +213,11 @@ export default function LinkMePressRelease() {
                   サービス詳細 <span className="ml-2">📋</span>
                 </h2>
                 <div className="space-y-4">
-                  <div className="flex items-center space-x-3 bg-blue-50 p-3 rounded-xl">
+                  <div className="flex items-center space-x-3 bg-pink-50 p-3 rounded-xl">
                     <span className="text-xl">💻</span>
                     <span className="text-gray-700">アプリは現状webで利用可能。今後iOSおよびAndroidで展開予定。</span>
                   </div>
-                  <div className="flex items-center space-x-3 bg-green-50 p-3 rounded-xl">
+                  <div className="flex items-center space-x-3 bg-pink-50 p-3 rounded-xl">
                     <span className="text-xl">🔒</span>
                     <span className="text-gray-700">イベント主催者の審査制を導入しており、安心・安全な場づくりを徹底しています。</span>
                   </div>
