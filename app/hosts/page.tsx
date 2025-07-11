@@ -368,16 +368,6 @@ export default function LinkMeHostsPage() {
         <div className="max-w-4xl mx-auto px-3 sm:px-6 text-center">
           <div className="text-xl sm:text-3xl font-bold mb-2 sm:mb-4 font-pacifico text-blue-400">LinkMe for Hosts</div>
           <p className="text-xs sm:text-base text-gray-700 mb-3 sm:mb-6 px-1">質の高い参加者だけが集まるイベント主催を実現 💙</p>
-          
-          {/* Navigation Links */}
-          <div className="flex justify-center space-x-4 sm:space-x-6 mb-4 sm:mb-6">
-            <Link href="/" className="text-xs sm:text-sm text-blue-400 hover:text-blue-600 font-medium hover:underline transition-colors">
-              参加者向けサービス
-            </Link>
-            <Link href="/faq" className="text-xs sm:text-sm text-blue-400 hover:text-blue-600 font-medium hover:underline transition-colors">
-              よくある質問
-            </Link>
-          </div>
     
           <div className="mt-4 sm:mt-8 pt-4 sm:pt-8 border-t border-blue-200 text-gray-600 text-xs sm:text-sm">
             <div className="mb-2">
