@@ -130,7 +130,7 @@ export default function LinkMePressRelease() {
                 <h2 className="text-base sm:text-xl font-bold text-gray-800 mb-2 sm:mb-4 text-center sm:text-left flex items-center justify-center sm:justify-start">
                   安心・安全な解決策 <span className="ml-2">🌟</span>
                 </h2>
-                <p className="text-xs sm:text-base text-gray-700 leading-relaxed bg-pink-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-center sm:text-left">
+                <p className="text-xs sm:text-base text-gray-700 leading-relaxed bg-pink-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
                   LinkMeでは、事前に設定した興味関心・価値観・性格タイプに基づいて、信頼できる主催者のイベントを自動でおすすめ 🎯
                   あらかじめ選別されたイベントだけが表示されるため、安心して選ぶことができます。
                   参加後にはフィードバックも記録できるので、自分に合った出会いがどんどん精度高く提案されていきます 📈
