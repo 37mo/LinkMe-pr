@@ -93,7 +93,7 @@ export default function LinkMePressRelease() {
                 <h2 className="text-base sm:text-xl font-bold text-gray-800 mb-2 sm:mb-4 text-center sm:text-left flex items-center justify-center sm:justify-start">
                   革新的なマッチング機能 <span className="ml-2">✨</span>
                 </h2>
-                <p className="text-xs sm:text-base text-gray-700 leading-relaxed bg-pink-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-center sm:text-left">
+                <p className="text-xs sm:text-base text-gray-700 leading-relaxed bg-pink-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
                   LinkMeは、ユーザーの価値観や興味関心に基づいて、自動的にイベントをレコメンドするマッチング型イベントアプリです 📱
                   イベントを探す手間も、「自分に合うかわからない」という不安も、もう不要。
                   東京での新生活を始めたばかりのあなたにも、自然な出会いと安心できる繋がりを届けます 🌸
@@ -112,7 +112,7 @@ export default function LinkMePressRelease() {
                 <h2 className="text-base sm:text-xl font-bold text-gray-800 mb-2 sm:mb-4 text-center sm:text-left flex items-center justify-center sm:justify-start">
                   ユーザーの声：山下薫さんの体験 <span className="ml-2">💭</span>
                 </h2>
-                <p className="text-xs sm:text-base text-gray-700 leading-relaxed bg-pink-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-center sm:text-left">
+                <p className="text-xs sm:text-base text-gray-700 leading-relaxed bg-pink-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
                   例えば、26歳の山下薫さん。九州から上京し、慣れない仕事と暮らしの中で「友達を作りたい」と思いながらも、どこから始めたらいいか分からずにいました 😅
                   イベントはたくさんあるけれど、選ぶのが面倒だし、ネットワークビジネスやマルチ商法に巻き込まれるのも怖い——そんな不安が行動を止めてしまうのです 😰
                 </p>
