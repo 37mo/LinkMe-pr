@@ -48,10 +48,10 @@ export default function LinkMeHostsPage() {
               LinkMe for Hosts
             </Link>
             <div className="flex items-center space-x-3">
-              <Link href="/" className="text-xs sm:text-sm text-gray-600 hover:text-blue-400 transition-colors">
+              <Link href="/" className="text-sm sm:text-sm text-gray-600 hover:text-blue-400 transition-colors">
                 参加者向け
               </Link>
-              <Link href="/faq" className="text-xs sm:text-sm text-gray-600 hover:text-blue-400 transition-colors">
+              <Link href="/faq" className="text-sm sm:text-sm text-gray-600 hover:text-blue-400 transition-colors">
                 FAQ
               </Link>
             </div>
@@ -64,7 +64,7 @@ export default function LinkMeHostsPage() {
         {/* Hero Section */}
         <div className="bg-white/90 backdrop-blur-sm rounded-xl sm:rounded-3xl shadow-lg p-3 sm:p-8 mb-4 sm:mb-8 border border-blue-100">
           <div className="text-center mb-6 sm:mb-8">
-            <div className="text-xs sm:text-sm text-blue-400 font-medium mb-3 sm:mb-4 bg-blue-50 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full inline-block">
+            <div className="text-sm sm:text-sm text-blue-400 font-medium mb-3 sm:mb-4 bg-blue-50 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full inline-block">
               ✨ PRESS RELEASE ✨
             </div>
             <h1 className="text-xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-3 sm:mb-6 leading-tight sm:leading-relaxed px-1">
@@ -95,7 +95,7 @@ export default function LinkMeHostsPage() {
                 <h2 className="text-base sm:text-xl font-bold text-gray-800 mb-2 sm:mb-4 text-center sm:text-left flex items-center justify-center sm:justify-start">
                   質の高い参加者だけが集まる仕組み <span className="ml-2">✨</span>
                 </h2>
-                <p className="text-xs sm:text-base text-gray-700 leading-relaxed bg-blue-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed bg-blue-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
                   従来のイベント告知では「とりあえず人数を集める」ことが重視されがちでした 📢
                   しかし本当に大切なのは、イベントの趣旨に共感し、積極的に参加したい人が集まることです。
                   LinkMe for Hostsは、主催者の想いと参加者の興味関心を丁寧にマッチングし、「気の合う人だけが集まる」理想的なイベントづくりを実現します 🌟
@@ -114,7 +114,7 @@ export default function LinkMeHostsPage() {
                 <h2 className="text-base sm:text-xl font-bold text-gray-800 mb-2 sm:mb-4 text-center sm:text-left flex items-center justify-center sm:justify-start">
                   イベント主催者が抱える課題 <span className="ml-2">💭</span>
                 </h2>
-                <p className="text-xs sm:text-base text-gray-700 leading-relaxed bg-blue-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed bg-blue-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
                   「集客に時間がかかる」「告知した人数の半分しか来ない」「ネットワークビジネス目的の人が紛れ込む」「参加者同士の相性が合わない」など、イベント主催には多くの課題があります 😔
                   特に個人や小規模団体での主催では、適切な参加者を見つけるのが困難で、せっかく企画したイベントが思うような成果を上げられないケースが後を絶ちません 📉
                 </p>
@@ -132,7 +132,7 @@ export default function LinkMeHostsPage() {
                 <h2 className="text-base sm:text-xl font-bold text-gray-800 mb-2 sm:mb-4 text-center sm:text-left flex items-center justify-center sm:justify-start">
                   LinkMe for Hostsが提供する解決策 <span className="ml-2">🚀</span>
                 </h2>
-                <p className="text-xs sm:text-base text-gray-700 leading-relaxed bg-blue-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed bg-blue-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
                   AIマッチング技術により、あなたのイベントに本当に興味を持つ参加者だけを自動的に集客 🤖
                   事前の参加者プロフィール確認、主催者とのチャット機能、参加者同士の相性診断など、質の高いイベント体験を支える機能が充実しています。
                   もう「人数合わせ」ではない、本当に意味のあるイベント運営が可能になります ✨
@@ -187,7 +187,7 @@ export default function LinkMeHostsPage() {
                   <p className="text-gray-700 leading-relaxed italic mb-3 sm:mb-4 text-sm sm:text-lg">
                     「これまで20人集客のために100人にアプローチしていましたが、LinkMe for Hostsでは本当に興味を持つ15人が自然と集まりました。イベントの質も満足度も格段に向上して、継続開催が楽しくなりました！ 😊」
                   </p>
-                  <div className="text-xs sm:text-sm text-gray-600 bg-white px-2 sm:px-3 py-1 rounded-full inline-block">
+                  <div className="text-sm sm:text-sm text-gray-600 bg-white px-2 sm:px-3 py-1 rounded-full inline-block">
                     読書会主催・田中さん（32歳） 📚
                   </div>
                 </div>
@@ -204,7 +204,7 @@ export default function LinkMeHostsPage() {
                 <br />
                 LinkMe for Hostsは、そんな&ldquo;奇跡の瞬間&rdquo;を確実に創り出します ✨
               </blockquote>
-              <cite className="text-blue-400 bg-blue-50 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm">— LinkMe for Hosts プロダクトリード・水本</cite>
+              <cite className="text-blue-400 bg-blue-50 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-sm sm:text-sm">— LinkMe for Hosts プロダクトリード・水本</cite>
             </div>
           </div>
 
@@ -218,7 +218,7 @@ export default function LinkMeHostsPage() {
                 <h2 className="text-base sm:text-xl font-bold text-gray-800 mb-2 sm:mb-4 text-center sm:text-left flex items-center justify-center sm:justify-start">
                   シンプルで透明な料金体系 <span className="ml-2">💳</span>
                 </h2>
-                <p className="text-xs sm:text-base text-gray-700 leading-relaxed bg-blue-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed bg-blue-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
                   月額固定費は一切不要 🆓 有料イベントの場合のみ、売上の20%を成功報酬としていただく完全成果報酬型です。
                   無料イベントの主催は完全無料で利用可能。初期費用やシステム利用料もかからないため、気軽に始められます。
                   「成功した分だけお支払い」の安心設計で、主催者のリスクを最小限に抑えています 🛡️
@@ -242,13 +242,13 @@ export default function LinkMeHostsPage() {
                   審査通過後、すぐにイベント募集がスタート。集客からイベント実施まで、すべてプラットフォーム内で完結します 🎯
                 </p>
                 <div className="flex flex-wrap gap-2 sm:gap-3 justify-center sm:justify-start">
-                  <div className="bg-blue-100 px-3 sm:px-4 py-2 rounded-full text-blue-500 font-medium text-xs sm:text-sm">
+                  <div className="bg-blue-100 px-3 sm:px-4 py-2 rounded-full text-blue-500 font-medium text-sm sm:text-sm">
                     📋 主催者登録
                   </div>
-                  <div className="bg-blue-100 px-3 sm:px-4 py-2 rounded-full text-blue-500 font-medium text-xs sm:text-sm">
+                  <div className="bg-blue-100 px-3 sm:px-4 py-2 rounded-full text-blue-500 font-medium text-sm sm:text-sm">
                     🔍 審査・承認
                   </div>
-                  <div className="bg-blue-100 px-3 sm:px-4 py-2 rounded-full text-blue-500 font-medium text-xs sm:text-sm">
+                  <div className="bg-blue-100 px-3 sm:px-4 py-2 rounded-full text-blue-500 font-medium text-sm sm:text-sm">
                     🎯 自動集客開始
                   </div>
                 </div>
@@ -261,14 +261,14 @@ export default function LinkMeHostsPage() {
         <div className="bg-white/90 backdrop-blur-sm rounded-xl sm:rounded-3xl p-4 sm:p-12 text-center mt-6 sm:mt-12 shadow-lg border border-blue-100">
           <div className="text-3xl sm:text-5xl mb-2 sm:mb-4">🎯</div>
           <h2 className="text-lg sm:text-2xl font-bold mb-2 sm:mb-4 text-gray-800 px-1">理想的なイベント主催を始めませんか？</h2>
-          <p className="text-xs sm:text-base text-gray-600 mb-3 sm:mb-6 max-w-2xl mx-auto px-1 leading-relaxed">
+          <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-6 max-w-2xl mx-auto px-1 leading-relaxed">
             質の高い参加者だけが集まる、新しいイベント主催体験をお試しください 🌟
           </p>
           
           {/* Host Registration Form */}
           <div className="bg-blue-50 rounded-xl sm:rounded-2xl p-3 sm:p-8 max-w-sm sm:max-w-md mx-auto mb-3 sm:mb-6 border border-blue-200">
             <h3 className="text-base sm:text-xl font-bold mb-2 sm:mb-4 text-gray-800">✨ 主催者登録受付中 ✨</h3>
-            <p className="text-gray-700 text-xs sm:text-sm mb-3 sm:mb-6 leading-relaxed">
+            <p className="text-gray-700 text-sm sm:text-sm mb-3 sm:mb-6 leading-relaxed">
               主催者登録は<span className="font-bold text-blue-400">完全無料</span>！<br className="sm:hidden" />リリース時にご連絡し、<br />
               <span className="font-bold text-blue-400">特別サポート</span>をご提供します 🎁
             </p>
@@ -320,7 +320,7 @@ export default function LinkMeHostsPage() {
         <div className="bg-gradient-to-r from-blue-50 to-pink-50 rounded-xl sm:rounded-3xl p-4 sm:p-8 mt-6 sm:mt-12 shadow-sm border border-blue-100">
           <div className="text-center mb-4 sm:mb-6">
             <h2 className="text-lg sm:text-2xl font-bold text-gray-800 mb-2">その他のサービス</h2>
-            <p className="text-xs sm:text-sm text-gray-600">LinkMeの全サービスをチェック</p>
+            <p className="text-sm sm:text-sm text-gray-600">LinkMeの全サービスをチェック</p>
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6">
@@ -333,10 +333,10 @@ export default function LinkMeHostsPage() {
                   </div>
                   <div>
                     <h3 className="text-sm sm:text-lg font-bold text-gray-800 group-hover:text-pink-500 transition-colors">LinkMe</h3>
-                    <p className="text-xs sm:text-sm text-pink-500">参加者向けサービス</p>
+                    <p className="text-sm sm:text-sm text-pink-500">参加者向けサービス</p>
                   </div>
                 </div>
-                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                <p className="text-sm sm:text-sm text-gray-600 leading-relaxed">
                   あなたにぴったりのイベントが見つかる。AIマッチング技術で理想的な出会いを。
                 </p>
               </div>
@@ -351,10 +351,10 @@ export default function LinkMeHostsPage() {
                   </div>
                   <div>
                     <h3 className="text-sm sm:text-lg font-bold text-gray-800 group-hover:text-blue-500 transition-colors">よくある質問</h3>
-                    <p className="text-xs sm:text-sm text-blue-500">FAQ・サポート</p>
+                    <p className="text-sm sm:text-sm text-blue-500">FAQ・サポート</p>
                   </div>
                 </div>
-                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                <p className="text-sm sm:text-sm text-gray-600 leading-relaxed">
                   LinkMeについてのよくあるご質問と回答。安心してサービスをご利用いただけます。
                 </p>
               </div>
@@ -367,9 +367,9 @@ export default function LinkMeHostsPage() {
       <footer className="bg-gradient-to-r from-blue-100 to-sky-200 py-6 sm:py-12">
         <div className="max-w-4xl mx-auto px-3 sm:px-6 text-center">
           <div className="text-xl sm:text-3xl font-bold mb-2 sm:mb-4 font-pacifico text-blue-400">LinkMe for Hosts</div>
-          <p className="text-xs sm:text-base text-gray-700 mb-3 sm:mb-6 px-1">質の高い参加者だけが集まるイベント主催を実現 💙</p>
+          <p className="text-sm sm:text-base text-gray-700 mb-3 sm:mb-6 px-1">質の高い参加者だけが集まるイベント主催を実現 💙</p>
     
-          <div className="mt-4 sm:mt-8 pt-4 sm:pt-8 border-t border-blue-200 text-gray-600 text-xs sm:text-sm">
+          <div className="mt-4 sm:mt-8 pt-4 sm:pt-8 border-t border-blue-200 text-gray-600 text-sm sm:text-sm">
             <div className="mb-2">
               運営会社：
               <a 

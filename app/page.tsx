@@ -104,7 +104,7 @@ export default function LinkMePressRelease() {
                 <h2 className="text-base sm:text-xl font-bold text-gray-800 mb-2 sm:mb-4 text-center sm:text-left flex items-center justify-center sm:justify-start">
                   革新的なマッチング機能 <span className="ml-2">✨</span>
                 </h2>
-                <p className="text-xs sm:text-base text-gray-700 leading-relaxed bg-pink-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed bg-pink-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
                   LinkMeは、ユーザーの価値観や興味関心に基づいて、自動的にイベントをレコメンドするマッチング型イベントアプリです 📱
                   イベントを探す手間も、「自分に合うかわからない」という不安も、もう不要。
                   東京での新生活を始めたばかりのあなたにも、自然な出会いと安心できる繋がりを届けます 🌸
@@ -123,7 +123,7 @@ export default function LinkMePressRelease() {
                 <h2 className="text-base sm:text-xl font-bold text-gray-800 mb-2 sm:mb-4 text-center sm:text-left flex items-center justify-center sm:justify-start">
                   ユーザーの声：山下薫さんの体験 <span className="ml-2">💭</span>
                 </h2>
-                <p className="text-xs sm:text-base text-gray-700 leading-relaxed bg-pink-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed bg-pink-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
                   例えば、26歳の山下薫さん。九州から上京し、慣れない仕事と暮らしの中で「友達を作りたい」と思いながらも、どこから始めたらいいか分からずにいました 😅
                   イベントはたくさんあるけれど、選ぶのが面倒だし、ネットワークビジネスやマルチ商法に巻き込まれるのも怖い——そんな不安が行動を止めてしまうのです 😰
                 </p>
@@ -141,7 +141,7 @@ export default function LinkMePressRelease() {
                 <h2 className="text-base sm:text-xl font-bold text-gray-800 mb-2 sm:mb-4 text-center sm:text-left flex items-center justify-center sm:justify-start">
                   安心・安全な解決策 <span className="ml-2">🌟</span>
                 </h2>
-                <p className="text-xs sm:text-base text-gray-700 leading-relaxed bg-pink-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed bg-pink-50 p-2.5 sm:p-4 rounded-lg sm:rounded-xl text-left">
                   LinkMeでは、事前に設定した興味関心・価値観・性格タイプに基づいて、信頼できる主催者のイベントを自動でおすすめ 🎯
                   あらかじめ選別されたイベントだけが表示されるため、安心して選ぶことができます。
                   参加後にはフィードバックも記録できるので、自分に合った出会いがどんどん精度高く提案されていきます 📈
@@ -159,7 +159,7 @@ export default function LinkMePressRelease() {
                 <br />
                 LinkMeは、そんな瞬間を誰にでも届けたいと願っています ✨
               </blockquote>
-              <cite className="text-pink-400 bg-pink-50 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm">— LinkMeプロダクトマネージャー・岡本</cite>
+              <cite className="text-pink-400 bg-pink-50 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-sm sm:text-sm">— LinkMeプロダクトマネージャー・岡本</cite>
             </div>
           </div>
 
@@ -179,13 +179,13 @@ export default function LinkMePressRelease() {
                   ひとり参加でも安心のフォロー体制も 🤗
                 </p>
                 <div className="flex flex-wrap gap-2 sm:gap-3 justify-center sm:justify-start">
-                  <div className="bg-pink-100 px-3 sm:px-4 py-2 rounded-full text-pink-500 font-medium text-xs sm:text-sm">
+                  <div className="bg-pink-100 px-3 sm:px-4 py-2 rounded-full text-pink-500 font-medium text-sm sm:text-sm">
                     📱 簡単登録
                   </div>
-                  <div className="bg-pink-100 px-3 sm:px-4 py-2 rounded-full text-pink-500 font-medium text-xs sm:text-sm">
+                  <div className="bg-pink-100 px-3 sm:px-4 py-2 rounded-full text-pink-500 font-medium text-sm sm:text-sm">
                     🧠 性格診断
                   </div>
-                  <div className="bg-pink-100 px-3 sm:px-4 py-2 rounded-full text-pink-500 font-medium text-xs sm:text-sm">
+                  <div className="bg-pink-100 px-3 sm:px-4 py-2 rounded-full text-pink-500 font-medium text-sm sm:text-sm">
                     📅 即座にマッチング
                   </div>
                 </div>
@@ -207,7 +207,7 @@ export default function LinkMePressRelease() {
                   <p className="text-gray-700 leading-relaxed italic mb-3 sm:mb-4 text-sm sm:text-lg">
                     &ldquo;まさに今の自分にぴったりなイベントが届いたのに驚きました。おかげで、東京で初めて&lsquo;居場所&rsquo;を感じられた気がします 🥰&rdquo;
                   </p>
-                  <div className="text-xs sm:text-sm text-gray-600 bg-white px-2 sm:px-3 py-1 rounded-full inline-block">
+                  <div className="text-sm sm:text-sm text-gray-600 bg-white px-2 sm:px-3 py-1 rounded-full inline-block">
                     26歳・女性・会社員 ✨
                   </div>
                 </div>
@@ -244,7 +244,7 @@ export default function LinkMePressRelease() {
         <div className="bg-white/90 backdrop-blur-sm rounded-xl sm:rounded-3xl p-4 sm:p-12 text-center mt-6 sm:mt-12 shadow-lg border border-pink-100">
           <div className="text-3xl sm:text-5xl mb-2 sm:mb-4">🎉</div>
           <h2 className="text-lg sm:text-2xl font-bold mb-2 sm:mb-4 text-gray-800 px-1">LinkMeで新しい出会いを始めませんか？</h2>
-          <p className="text-xs sm:text-base text-gray-600 mb-3 sm:mb-6 max-w-2xl mx-auto px-1 leading-relaxed">
+          <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-6 max-w-2xl mx-auto px-1 leading-relaxed">
             あなたにぴったりのイベントが、自動的に見つかります。東京での新しい生活を、もっと豊かに 🌈
           </p>
           
@@ -303,7 +303,7 @@ export default function LinkMePressRelease() {
         <div className="bg-gradient-to-r from-pink-50 to-blue-50 rounded-xl sm:rounded-3xl p-4 sm:p-8 mt-6 sm:mt-12 shadow-sm border border-pink-100">
           <div className="text-center mb-4 sm:mb-6">
             <h2 className="text-lg sm:text-2xl font-bold text-gray-800 mb-2">その他のサービス</h2>
-            <p className="text-xs sm:text-sm text-gray-600">LinkMeの全サービスをチェック</p>
+            <p className="text-sm sm:text-sm text-gray-600">LinkMeの全サービスをチェック</p>
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6">
@@ -316,10 +316,10 @@ export default function LinkMePressRelease() {
                   </div>
                   <div>
                     <h3 className="text-sm sm:text-lg font-bold text-gray-800 group-hover:text-blue-500 transition-colors">LinkMe for Hosts</h3>
-                    <p className="text-xs sm:text-sm text-blue-500">主催者向けサービス</p>
+                    <p className="text-sm sm:text-sm text-blue-500">主催者向けサービス</p>
                   </div>
                 </div>
-                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                <p className="text-sm sm:text-sm text-gray-600 leading-relaxed">
                   質の高い参加者だけが集まるイベント主催を実現。AIマッチング技術で理想的な集客を。
                 </p>
               </div>
@@ -334,10 +334,10 @@ export default function LinkMePressRelease() {
                   </div>
                   <div>
                     <h3 className="text-sm sm:text-lg font-bold text-gray-800 group-hover:text-pink-500 transition-colors">よくある質問</h3>
-                    <p className="text-xs sm:text-sm text-pink-500">FAQ・サポート</p>
+                    <p className="text-sm sm:text-sm text-pink-500">FAQ・サポート</p>
                   </div>
                 </div>
-                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                <p className="text-sm sm:text-sm text-gray-600 leading-relaxed">
                   LinkMeについてのよくあるご質問と回答。安心してサービスをご利用いただけます。
                 </p>
               </div>
@@ -350,7 +350,7 @@ export default function LinkMePressRelease() {
       <footer className="bg-gradient-to-r from-pink-100 to-pink-200 py-6 sm:py-12">
         <div className="max-w-4xl mx-auto px-3 sm:px-6 text-center">
           <div className="text-xl sm:text-3xl font-bold mb-2 sm:mb-4 font-pacifico text-pink-400">LinkMe</div>
-          <p className="text-xs sm:text-base text-gray-700 mb-3 sm:mb-6 px-1">あなたにぴったりのイベントをお届けします 💕</p>
+          <p className="text-sm sm:text-base text-gray-700 mb-3 sm:mb-6 px-1">あなたにぴったりのイベントをお届けします 💕</p>
     
           <div className="mt-4 sm:mt-8 pt-4 sm:pt-8 border-t border-pink-200 text-gray-600 text-xs sm:text-sm">
             <div className="mb-2">

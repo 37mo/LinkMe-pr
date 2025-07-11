@@ -66,7 +66,7 @@ export default function FAQPage() {
               LinkMe
             </Link>
             <div className="flex items-center space-x-3">
-              <Link href="/hosts" className="text-xs sm:text-sm text-gray-600 hover:text-pink-400 transition-colors">
+              <Link href="/hosts" className="text-sm sm:text-sm text-gray-600 hover:text-pink-400 transition-colors">
                 主催者向け
               </Link>
               <div className="text-sm text-gray-600 bg-pink-100 px-3 py-1 rounded-full">FAQ</div>
@@ -80,7 +80,7 @@ export default function FAQPage() {
         {/* Hero Section */}
         <div className="bg-white/90 backdrop-blur-sm rounded-xl sm:rounded-3xl shadow-lg p-3 sm:p-8 mb-4 sm:mb-8 border border-pink-100">
           <div className="text-center mb-6 sm:mb-8">
-            <div className="text-xs sm:text-sm text-pink-400 font-medium mb-3 sm:mb-4 bg-pink-50 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full inline-block">
+            <div className="text-sm sm:text-sm text-pink-400 font-medium mb-3 sm:mb-4 bg-pink-50 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full inline-block">
               ❓ FAQ ❓
             </div>
             <h1 className="text-xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-3 sm:mb-6 leading-tight sm:leading-relaxed px-1">
@@ -112,7 +112,7 @@ export default function FAQPage() {
                   <div className="w-8 h-8 sm:w-10 sm:h-10 bg-pink-200 rounded-full flex items-center justify-center flex-shrink-0">
                     <span className="text-sm sm:text-base font-bold text-pink-600">A</span>
                   </div>
-                  <p className="text-xs sm:text-base text-gray-700 leading-relaxed">
+                  <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                     {faq.answer}
                   </p>
                 </div>
@@ -135,7 +135,7 @@ export default function FAQPage() {
         <div className="bg-gradient-to-r from-pink-50 to-blue-50 rounded-xl sm:rounded-3xl p-4 sm:p-8 mt-6 sm:mt-12 shadow-sm border border-pink-100">
           <div className="text-center mb-4 sm:mb-6">
             <h2 className="text-lg sm:text-2xl font-bold text-gray-800 mb-2">サービス一覧</h2>
-            <p className="text-xs sm:text-sm text-gray-600">LinkMeの全サービスをチェック</p>
+            <p className="text-sm sm:text-sm text-gray-600">LinkMeの全サービスをチェック</p>
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6">
@@ -148,10 +148,10 @@ export default function FAQPage() {
                   </div>
                   <div>
                     <h3 className="text-sm sm:text-lg font-bold text-gray-800 group-hover:text-pink-500 transition-colors">LinkMe</h3>
-                    <p className="text-xs sm:text-sm text-pink-500">参加者向けサービス</p>
+                    <p className="text-sm sm:text-sm text-pink-500">参加者向けサービス</p>
                   </div>
                 </div>
-                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                <p className="text-sm sm:text-sm text-gray-600 leading-relaxed">
                   あなたにぴったりのイベントが見つかる。AIマッチング技術で理想的な出会いを。
                 </p>
               </div>
@@ -166,10 +166,10 @@ export default function FAQPage() {
                   </div>
                   <div>
                     <h3 className="text-sm sm:text-lg font-bold text-gray-800 group-hover:text-blue-500 transition-colors">LinkMe for Hosts</h3>
-                    <p className="text-xs sm:text-sm text-blue-500">主催者向けサービス</p>
+                    <p className="text-sm sm:text-sm text-blue-500">主催者向けサービス</p>
                   </div>
                 </div>
-                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                <p className="text-sm sm:text-sm text-gray-600 leading-relaxed">
                   質の高い参加者だけが集まるイベント主催を実現。AIマッチング技術で理想的な集客を。
                 </p>
               </div>
@@ -182,9 +182,9 @@ export default function FAQPage() {
       <footer className="bg-gradient-to-r from-pink-100 to-pink-200 py-6 sm:py-12">
         <div className="max-w-4xl mx-auto px-3 sm:px-6 text-center">
           <div className="text-xl sm:text-3xl font-bold mb-2 sm:mb-4 font-pacifico text-pink-400">LinkMe</div>
-          <p className="text-xs sm:text-base text-gray-700 mb-3 sm:mb-6 px-1">あなたにぴったりのイベントをお届けします 💕</p>
+          <p className="text-sm sm:text-base text-gray-700 mb-3 sm:mb-6 px-1">あなたにぴったりのイベントをお届けします 💕</p>
     
-          <div className="mt-4 sm:mt-8 pt-4 sm:pt-8 border-t border-pink-200 text-gray-600 text-xs sm:text-sm">
+          <div className="mt-4 sm:mt-8 pt-4 sm:pt-8 border-t border-pink-200 text-gray-600 text-sm sm:text-sm">
             <div className="mb-2">
               運営会社：
               <a 
