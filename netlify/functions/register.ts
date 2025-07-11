@@ -57,14 +57,14 @@ export const handler: Handler = async (event, context) => {
       to: [email],
       subject: "🎉 LinkMe先行登録ありがとうございます！",
       html: `
-        <div style="font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #fef7f7;">
+        <div style="font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: linear-gradient(to bottom right, #fdf2f8, #eff6ff);">
           <div style="text-align: center; margin-bottom: 30px;">
-            <h1 style="color: #ec4089; font-size: 28px; margin-bottom: 10px;">LinkMe</h1>
+            <h1 style="color: #f472b6; font-size: 28px; margin-bottom: 10px;">LinkMe</h1>
             <p style="color: #666; font-size: 16px;">あなたにぴったりのイベントをお届け</p>
           </div>
           
           <div style="background-color: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-            <h2 style="color: #ec4089; font-size: 24px; margin-bottom: 20px; text-align: center;">🎉 先行登録ありがとうございます！</h2>
+            <h2 style="color: #f472b6; font-size: 24px; margin-bottom: 20px; text-align: center;">🎉 先行登録ありがとうございます！</h2>
             
             <p style="color: #333; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
               ${name ? `${name}さん、` : ""}この度はLinkMeの先行登録をしていただき、ありがとうございます！
@@ -74,8 +74,8 @@ export const handler: Handler = async (event, context) => {
               LinkMeは、あなたの価値観や興味関心に基づいて、自動的にイベントをレコメンドするマッチング型イベントアプリです。
             </p>
             
-            <div style="background-color: #fef7f7; padding: 20px; border-radius: 8px; margin: 20px 0;">
-              <h3 style="color: #ec4089; font-size: 18px; margin-bottom: 15px;">✨ 先行登録特典 ✨</h3>
+            <div style="background: linear-gradient(to right, #fdf2f8, #eff6ff); padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h3 style="color: #f472b6; font-size: 18px; margin-bottom: 15px;">✨ 先行登録特典 ✨</h3>
               <ul style="color: #333; font-size: 16px; line-height: 1.6; margin: 0; padding-left: 20px;">
                 <li>リリース時の優先案内</li>
                 <li>初回登録時の特別特典</li>
@@ -91,7 +91,7 @@ export const handler: Handler = async (event, context) => {
             <div style="text-align: center; margin-top: 30px;">
               <p style="color: #666; font-size: 14px;">
                 運営会社：株式会社みなも<br>
-                <a href="https://37mo.com/" style="color: #ec4089; text-decoration: none;">https://37mo.com/</a>
+                <a href="https://37mo.com/" style="color: #f472b6; text-decoration: none;">https://37mo.com/</a>
               </p>
             </div>
           </div>
