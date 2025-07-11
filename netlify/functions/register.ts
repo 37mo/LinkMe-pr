@@ -76,7 +76,7 @@ export const handler: Handler = async (event) => {
             
             <div style="background: linear-gradient(to right, #fdf2f8, #fce7f3); padding: 20px; border-radius: 8px; margin: 20px 0;">
               <h3 style="color: #f472b6; font-size: 18px; margin-bottom: 15px;">✨ 先行登録特典 ✨</h3>
-              <ul style="color: #1f2937; font-size: 16px; line-height: 1.6; margin: 0; padding-left: 20px;">
+              <ul style="color: #333; font-size: 16px; line-height: 1.6; margin: 0; padding-left: 20px;">
                 <li>リリース時の優先案内</li>
                 <li>β版テスト参加権</li>
               </ul>
@@ -90,7 +90,7 @@ export const handler: Handler = async (event) => {
             <div style="background: #fef3f7; padding: 20px; border-radius: 8px; margin: 20px 0; text-align: center;">
               <h3 style="color: #333; font-size: 18px; margin-bottom: 15px;">🌟 詳細はWebサイトでチェック！</h3>
               <div style="margin-bottom: 10px;">
-                <a href="https://linkme.37mo.com/" style="color: #f472b6; text-decoration: none; font-weight: bold; font-size: 16px;">
+                <a href="https://linkme.37mo.com/" style="display: inline-block; background: #f472b6; color: white; text-decoration: none; font-weight: bold; font-size: 16px; padding: 12px 24px; border-radius: 8px; box-shadow: 0 2px 4px rgba(244, 114, 182, 0.3);">
                   📱 LinkMe
                 </a>
               </div>
