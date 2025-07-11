@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@netlify/functions": "^4.1.10",
     "@react-google-maps/api": "^2.19.3",
     "next": "15.3.2",
     "react": "^19.0.0",

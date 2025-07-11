@@ -1,17 +1,42 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { Handler } from '@netlify/functions';
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export async function POST(request: NextRequest) {
+export const handler: Handler = async (event, context) => {
+  // CORS headers
+  const headers = {
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  };
+
+  // Handle preflight requests
+  if (event.httpMethod === 'OPTIONS') {
+    return {
+      statusCode: 200,
+      headers,
+      body: '',
+    };
+  }
+
+  if (event.httpMethod !== 'POST') {
+    return {
+      statusCode: 405,
+      headers,
+      body: JSON.stringify({ error: 'Method not allowed' }),
+    };
+  }
+
   try {
-    const { email, name } = await request.json();
+    const { email, name } = JSON.parse(event.body || '{}');
 
     if (!email) {
-      return NextResponse.json(
-        { error: 'メールアドレスが必要です' },
-        { status: 400 }
-      );
+      return {
+        statusCode: 400,
+        headers,
+        body: JSON.stringify({ error: 'メールアドレスが必要です' }),
+      };
     }
 
     // 先行登録の確認メールを送信
@@ -64,22 +89,28 @@ export async function POST(request: NextRequest) {
 
     if (error) {
       console.error('Resend error:', error);
-      return NextResponse.json(
-        { error: 'メール送信に失敗しました' },
-        { status: 500 }
-      );
+      return {
+        statusCode: 500,
+        headers,
+        body: JSON.stringify({ error: 'メール送信に失敗しました' }),
+      };
     }
 
-    return NextResponse.json({ 
-      message: '先行登録が完了しました。確認メールをお送りしました。',
-      emailId: data?.id 
-    });
+    return {
+      statusCode: 200,
+      headers,
+      body: JSON.stringify({ 
+        message: '先行登録が完了しました。確認メールをお送りしました。',
+        emailId: data?.id 
+      }),
+    };
 
   } catch (error) {
     console.error('Registration error:', error);
-    return NextResponse.json(
-      { error: 'エラーが発生しました' },
-      { status: 500 }
-    );
+    return {
+      statusCode: 500,
+      headers,
+      body: JSON.stringify({ error: 'エラーが発生しました' }),
+    };
   }
-}
+};
