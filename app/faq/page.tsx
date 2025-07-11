@@ -66,6 +66,9 @@ export default function FAQPage() {
               LinkMe
             </Link>
             <div className="flex items-center space-x-3">
+              <Link href="/hosts" className="text-xs sm:text-sm text-gray-600 hover:text-pink-400 transition-colors">
+                主催者向け
+              </Link>
               <div className="text-sm text-gray-600 bg-pink-100 px-3 py-1 rounded-full">FAQ</div>
             </div>
           </div>

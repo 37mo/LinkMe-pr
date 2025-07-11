@@ -14,7 +14,7 @@ export default function LinkMePressRelease() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('/api/register', {
+      const response = await fetch('/.netlify/functions/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -45,10 +45,12 @@ export default function LinkMePressRelease() {
           <div className="flex items-center justify-between">
             <div className="text-2xl font-bold text-pink-400 font-pacifico">LinkMe</div>
             <div className="flex items-center space-x-3">
+              <Link href="/hosts" className="text-xs sm:text-sm text-gray-600 hover:text-pink-400 transition-colors">
+                主催者向け
+              </Link>
               <Link href="/faq" className="text-xs sm:text-sm text-gray-600 hover:text-pink-400 transition-colors">
                 FAQ
               </Link>
-              <div className="text-sm text-gray-600 bg-pink-100 px-3 py-1 rounded-full">プレスリリース</div>
             </div>
           </div>
         </div>
