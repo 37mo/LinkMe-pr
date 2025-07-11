@@ -57,7 +57,7 @@ export const handler: Handler = async (event, context) => {
       to: [email],
       subject: "🎉 LinkMe先行登録ありがとうございます！",
       html: `
-        <div style="font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: linear-gradient(to bottom right, #fdf2f8, #eff6ff);">
+        <div style="font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: linear-gradient(to bottom right, #fdf2f8, #fce7f3);">
           <div style="text-align: center; margin-bottom: 30px;">
             <h1 style="color: #f472b6; font-size: 28px; margin-bottom: 10px;">LinkMe</h1>
             <p style="color: #666; font-size: 16px;">あなたにぴったりのイベントをお届け</p>
@@ -74,7 +74,7 @@ export const handler: Handler = async (event, context) => {
               LinkMeは、あなたの価値観や興味関心に基づいて、自動的にイベントをレコメンドするマッチング型イベントアプリです。
             </p>
             
-            <div style="background: linear-gradient(to right, #fdf2f8, #eff6ff); padding: 20px; border-radius: 8px; margin: 20px 0;">
+            <div style="background: linear-gradient(to right, #fdf2f8, #fce7f3); padding: 20px; border-radius: 8px; margin: 20px 0;">
               <h3 style="color: #f472b6; font-size: 18px; margin-bottom: 15px;">✨ 先行登録特典 ✨</h3>
               <ul style="color: #333; font-size: 16px; line-height: 1.6; margin: 0; padding-left: 20px;">
                 <li>リリース時の優先案内</li>

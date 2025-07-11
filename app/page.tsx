@@ -43,7 +43,7 @@ export default function LinkMePressRelease() {
         <div className="max-w-4xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="text-2xl font-bold text-pink-400 font-pacifico">LinkMe</div>
-            <div className="text-sm text-gray-600 bg-blue-100 px-3 py-1 rounded-full">プレスリリース</div>
+            <div className="text-sm text-gray-600 bg-pink-100 px-3 py-1 rounded-full">プレスリリース</div>
           </div>
         </div>
       </header>
@@ -51,9 +51,9 @@ export default function LinkMePressRelease() {
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-6 py-12">
         {/* Hero Section */}
-        <div className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-lg p-8 mb-8 border border-blue-100">
+        <div className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-lg p-8 mb-8 border border-pink-100">
           <div className="text-center mb-8">
-            <div className="text-sm text-blue-400 font-medium mb-4 bg-blue-50 px-4 py-2 rounded-full inline-block">
+            <div className="text-sm text-pink-400 font-medium mb-4 bg-pink-50 px-4 py-2 rounded-full inline-block">
               ✨ PRESS RELEASE ✨
             </div>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6 leading-relaxed">
@@ -103,16 +103,16 @@ export default function LinkMePressRelease() {
           </div>
 
           {/* Section 2 */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl shadow-sm p-8 border border-blue-100">
+          <div className="bg-white/90 backdrop-blur-sm rounded-2xl shadow-sm p-8 border border-pink-100">
             <div className="flex items-start space-x-6">
-              <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-14 h-14 bg-pink-100 rounded-full flex items-center justify-center flex-shrink-0">
                 <span className="text-2xl">👤</span>
               </div>
               <div className="flex-1">
                 <h2 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
                   ユーザーの声：山下薫さんの体験 <span className="ml-2">💭</span>
                 </h2>
-                <p className="text-gray-700 leading-relaxed bg-blue-50 p-4 rounded-xl">
+                <p className="text-gray-700 leading-relaxed bg-pink-50 p-4 rounded-xl">
                   例えば、26歳の山下薫さん。九州から上京し、慣れない仕事と暮らしの中で「友達を作りたい」と思いながらも、どこから始めたらいいか分からずにいました 😅
                   イベントはたくさんあるけれど、選ぶのが面倒だし、ネットワークビジネスやマルチ商法に巻き込まれるのも怖い——そんな不安が行動を止めてしまうのです 😰
                 </p>
@@ -140,7 +140,7 @@ export default function LinkMePressRelease() {
           </div>
 
           {/* Quote Section */}
-          <div className="bg-gradient-to-r from-pink-100 to-blue-100 rounded-2xl p-8 text-gray-800">
+          <div className="bg-gradient-to-r from-pink-100 to-pink-200 rounded-2xl p-8 text-gray-800">
             <div className="text-center">
               <div className="text-5xl mb-4">💬</div>
               <blockquote className="text-xl font-medium mb-6 leading-relaxed">
@@ -151,16 +151,16 @@ export default function LinkMePressRelease() {
           </div>
 
           {/* How to Start */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl shadow-sm p-8 border border-blue-100">
+          <div className="bg-white/90 backdrop-blur-sm rounded-2xl shadow-sm p-8 border border-pink-100">
             <div className="flex items-start space-x-6">
-              <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-14 h-14 bg-pink-100 rounded-full flex items-center justify-center flex-shrink-0">
                 <span className="text-2xl">🚀</span>
               </div>
               <div className="flex-1">
                 <h2 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
                   簡単な始め方 <span className="ml-2">🎈</span>
                 </h2>
-                <p className="text-gray-700 leading-relaxed mb-4 bg-blue-50 p-4 rounded-xl">
+                <p className="text-gray-700 leading-relaxed mb-4 bg-pink-50 p-4 rounded-xl">
                   アプリをダウンロードして、まずは簡単な性格診断に回答するだけ 📝
                   興味のあるカテゴリを選ぶと、今週末にぴったりのイベントがすぐに届きます。
                   ひとり参加でも安心のフォロー体制も 🤗
@@ -228,7 +228,7 @@ export default function LinkMePressRelease() {
         </div>
 
         {/* Pre-registration Section */}
-        <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-12 text-center mt-12 shadow-lg border border-blue-100">
+        <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-12 text-center mt-12 shadow-lg border border-pink-100">
           <div className="text-5xl mb-4">🎉</div>
           <h2 className="text-2xl font-bold mb-4 text-gray-800">LinkMeで新しい出会いを始めませんか？</h2>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
@@ -236,7 +236,7 @@ export default function LinkMePressRelease() {
           </p>
           
           {/* Pre-registration Form */}
-          <div className="bg-blue-50 rounded-2xl p-8 max-w-md mx-auto mb-6 border border-blue-200">
+          <div className="bg-pink-50 rounded-2xl p-8 max-w-md mx-auto mb-6 border border-pink-200">
             <h3 className="text-xl font-bold mb-4 text-gray-800">✨ 先行登録受付中 ✨</h3>
             <p className="text-gray-700 text-sm mb-6">
               先行登録は<span className="font-bold text-pink-400">完全無料</span>！リリース時にご連絡し、<br />
@@ -257,7 +257,7 @@ export default function LinkMePressRelease() {
                   <input
                     type="email"
                     placeholder="メールアドレスを入力"
-                    className="w-full px-4 py-3 rounded-full text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-300 border border-blue-200"
+                    className="w-full px-4 py-3 rounded-full text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-pink-300 border border-pink-200"
                     required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -268,7 +268,7 @@ export default function LinkMePressRelease() {
                   <input
                     type="text"
                     placeholder="お名前（任意）"
-                    className="w-full px-4 py-3 rounded-full text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-300 border border-blue-200"
+                    className="w-full px-4 py-3 rounded-full text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-pink-300 border border-pink-200"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     disabled={isSubmitting}
@@ -293,7 +293,7 @@ export default function LinkMePressRelease() {
           <div className="text-3xl font-bold mb-4 font-pacifico text-pink-400">LinkMe</div>
           <p className="text-gray-700 mb-6">あなたにぴったりのイベントをお届けします 💕</p>
     
-          <div className="mt-8 pt-8 border-t border-blue-200 text-gray-600 text-sm">
+          <div className="mt-8 pt-8 border-t border-pink-200 text-gray-600 text-sm">
             <div className="mb-2">
               運営会社：
               <a 
