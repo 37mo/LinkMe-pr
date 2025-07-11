@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function LinkMePressRelease() {
   const [email, setEmail] = useState('');
@@ -81,9 +82,11 @@ export default function LinkMePressRelease() {
             </p>
           </div>
           <div className="flex justify-center mb-8">
-            <img 
+            <Image 
               src="https://static.readdy.ai/image/41558152d6f267d370b9c0eb09d64528/cbdebc5051ca753c8d5d6b030380d1f6.png"
               alt="LinkMeの漫画説明"
+              width={800}
+              height={600}
               className="w-full max-w-2xl rounded-2xl shadow-md object-cover"
             />
           </div>
@@ -152,7 +155,7 @@ export default function LinkMePressRelease() {
             <div className="text-center">
               <div className="text-5xl mb-4">💬</div>
               <blockquote className="text-xl font-medium mb-6 leading-relaxed">
-                イベントは、ただの参加ではなく"人生のきっかけ"になる。LinkMeは、そんな瞬間を誰にでも届けたいと願っています ✨
+                イベントは、ただの参加ではなく&ldquo;人生のきっかけ&rdquo;になる。LinkMeは、そんな瞬間を誰にでも届けたいと願っています ✨
               </blockquote>
               <cite className="text-pink-400 bg-pink-50 px-4 py-2 rounded-full">— LinkMeプロダクトマネージャー・岡本</cite>
             </div>
@@ -200,7 +203,7 @@ export default function LinkMePressRelease() {
                 </h2>
                 <div className="bg-pink-50 p-6 rounded-2xl border-2 border-dashed border-pink-200">
                   <p className="text-gray-700 leading-relaxed italic mb-4 text-lg">
-                    「まさに今の自分にぴったりなイベントが届いたのに驚きました。おかげで、東京で初めて"居場所"を感じられた気がします 🥰」
+                    &ldquo;まさに今の自分にぴったりなイベントが届いたのに驚きました。おかげで、東京で初めて&lsquo;居場所&rsquo;を感じられた気がします 🥰&rdquo;
                   </p>
                   <div className="text-sm text-gray-600 bg-white px-3 py-1 rounded-full inline-block">
                     26歳・女性・会社員 ✨
