@@ -100,6 +100,25 @@ export const handler: Handler = async (event) => {
               ご質問やご不明な点がございましたら、お気軽にお問い合わせください 💙
             </p>
             
+            <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0; text-align: center;">
+              <h3 style="color: #60a5fa; font-size: 18px; margin-bottom: 15px;">🌟 詳細はWebサイトでチェック！</h3>
+              <div style="margin-bottom: 10px;">
+                <a href="https://linkme-pr.netlify.app/hosts" style="color: #60a5fa; text-decoration: none; font-weight: bold; font-size: 16px;">
+                  🎯 LinkMe for Hosts（主催者向け）
+                </a>
+              </div>
+              <div>
+                <a href="https://linkme-pr.netlify.app/" style="color: #f472b6; text-decoration: none; font-weight: bold; font-size: 16px;">
+                  📱 LinkMe（参加者向け）
+                </a>
+              </div>
+              <div style="margin-top: 15px;">
+                <a href="https://linkme-pr.netlify.app/faq" style="color: #6b7280; text-decoration: none; font-weight: bold; font-size: 14px;">
+                  ❓ よくある質問
+                </a>
+              </div>
+            </div>
+            
             <div style="text-align: center; margin-top: 30px;">
               <p style="color: #666; font-size: 14px;">
                 運営会社：株式会社みなも<br>
