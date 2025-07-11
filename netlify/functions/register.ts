@@ -90,7 +90,7 @@ export const handler: Handler = async (event) => {
             <div style="background: #fef3f7; padding: 20px; border-radius: 8px; margin: 20px 0; text-align: center;">
               <h3 style="color: #333; font-size: 18px; margin-bottom: 15px;">🌟 詳細はWebサイトでチェック！</h3>
               <div style="margin-bottom: 10px;">
-                <a href="https://linkme.37mo.com/" style="display: inline-block; background: #f472b6; color: white; text-decoration: none; font-weight: bold; font-size: 16px; padding: 12px 24px; border-radius: 8px; box-shadow: 0 2px 4px rgba(244, 114, 182, 0.3);">
+                <a href="https://linkme.37mo.com/" style="display: inline-block; background: #f472b6; color: #ffffff !important; text-decoration: none; font-weight: bold; font-size: 16px; padding: 12px 24px; border-radius: 8px; box-shadow: 0 2px 4px rgba(244, 114, 182, 0.3);">
                   📱 LinkMe
                 </a>
               </div>
