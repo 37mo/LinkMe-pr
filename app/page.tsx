@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function LinkMePressRelease() {
   const [email, setEmail] = useState('');
@@ -43,7 +44,12 @@ export default function LinkMePressRelease() {
         <div className="max-w-4xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="text-2xl font-bold text-pink-400 font-pacifico">LinkMe</div>
-            <div className="text-sm text-gray-600 bg-pink-100 px-3 py-1 rounded-full">プレスリリース</div>
+            <div className="flex items-center space-x-3">
+              <Link href="/faq" className="text-xs sm:text-sm text-gray-600 hover:text-pink-400 transition-colors">
+                FAQ
+              </Link>
+              <div className="text-sm text-gray-600 bg-pink-100 px-3 py-1 rounded-full">プレスリリース</div>
+            </div>
           </div>
         </div>
       </header>
