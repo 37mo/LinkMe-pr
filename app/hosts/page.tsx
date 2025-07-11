@@ -200,9 +200,11 @@ export default function LinkMeHostsPage() {
             <div className="text-center">
               <div className="text-5xl mb-4">💙</div>
               <blockquote className="text-xl font-medium mb-6 leading-relaxed">
-                本当に価値あるイベントは、適切な人が適切な場所に集まった時に生まれる。LinkMe for Hostsは、そんな"奇跡の瞬間"を確実に創り出します ✨
+                本当に価値あるイベントは、適切な人が適切な場所に集まった時に生まれる。
+                <br />
+                LinkMe for Hostsは、そんな"奇跡の瞬間"を確実に創り出します ✨
               </blockquote>
-              <cite className="text-blue-400 bg-blue-50 px-4 py-2 rounded-full">— LinkMe for Hosts プロダクトリード・佐藤</cite>
+              <cite className="text-blue-400 bg-blue-50 px-4 py-2 rounded-full">— LinkMe for Hosts プロダクトリード・水本</cite>
             </div>
           </div>
 
