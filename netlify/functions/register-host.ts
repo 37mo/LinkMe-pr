@@ -29,13 +29,10 @@ export const handler: Handler = async (event) => {
   }
 
   try {
-    console.log("Host registration request received:", event.body);
     const { email, name } = JSON.parse(event.body || "{}");
-    console.log("Parsed data:", { email, name: name || "not provided" });
 
     // API key の存在確認
     if (!process.env.RESEND_HOST_API_KEY) {
-      console.error("RESEND_HOST_API_KEY is not set");
       return {
         statusCode: 500,
         headers,
@@ -54,7 +51,6 @@ export const handler: Handler = async (event) => {
     }
 
     // 主催者登録の確認メールを送信
-    console.log("Sending host registration email to:", email);
     const { data, error } = await resend.emails.send({
       from: "LinkMe for Hosts <linkme@37mo.com>",
       to: [email],
@@ -121,7 +117,6 @@ export const handler: Handler = async (event) => {
     });
 
     if (error) {
-      console.error("Resend error for host registration:", error);
       return {
         statusCode: 500,
         headers,
@@ -132,10 +127,6 @@ export const handler: Handler = async (event) => {
       };
     }
 
-    console.log(
-      "Host registration email sent successfully. Email ID:",
-      data?.id
-    );
     return {
       statusCode: 200,
       headers,
@@ -145,7 +136,6 @@ export const handler: Handler = async (event) => {
       }),
     };
   } catch (error) {
-    console.error("Host registration error:", error);
     return {
       statusCode: 500,
       headers,
