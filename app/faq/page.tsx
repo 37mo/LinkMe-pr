@@ -137,6 +137,16 @@ export default function FAQPage() {
         <div className="max-w-4xl mx-auto px-3 sm:px-6 text-center">
           <div className="text-xl sm:text-3xl font-bold mb-2 sm:mb-4 font-pacifico text-pink-400">LinkMe</div>
           <p className="text-xs sm:text-base text-gray-700 mb-3 sm:mb-6 px-1">あなたにぴったりのイベントをお届けします 💕</p>
+          
+          {/* Navigation Links */}
+          <div className="flex justify-center space-x-4 sm:space-x-6 mb-4 sm:mb-6">
+            <Link href="/" className="text-xs sm:text-sm text-pink-400 hover:text-pink-600 font-medium hover:underline transition-colors">
+              参加者向けサービス
+            </Link>
+            <Link href="/hosts" className="text-xs sm:text-sm text-pink-400 hover:text-pink-600 font-medium hover:underline transition-colors">
+              主催者向けサービス
+            </Link>
+          </div>
     
           <div className="mt-4 sm:mt-8 pt-4 sm:pt-8 border-t border-pink-200 text-gray-600 text-xs sm:text-sm">
             <div className="mb-2">
