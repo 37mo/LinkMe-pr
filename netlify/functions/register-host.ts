@@ -1,7 +1,7 @@
 import { Handler } from "@netlify/functions";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.RESEND_HOST_API_KEY);
 
 export const handler: Handler = async (event) => {
   // CORS headers
@@ -34,13 +34,13 @@ export const handler: Handler = async (event) => {
     console.log("Parsed data:", { email, name: name || "not provided" });
 
     // API key の存在確認
-    if (!process.env.RESEND_API_KEY) {
-      console.error("RESEND_API_KEY is not set");
+    if (!process.env.RESEND_HOST_API_KEY) {
+      console.error("RESEND_HOST_API_KEY is not set");
       return {
         statusCode: 500,
         headers,
         body: JSON.stringify({
-          error: "サーバー設定エラー: API Key が設定されていません",
+          error: "サーバー設定エラー: 主催者用API Key が設定されていません",
         }),
       };
     }
