@@ -130,6 +130,52 @@ export default function FAQPage() {
             🏠 プレスリリースに戻る
           </Link>
         </div>
+
+        {/* Cross Page Links */}
+        <div className="bg-gradient-to-r from-pink-50 to-blue-50 rounded-xl sm:rounded-3xl p-4 sm:p-8 mt-6 sm:mt-12 shadow-sm border border-pink-100">
+          <div className="text-center mb-4 sm:mb-6">
+            <h2 className="text-lg sm:text-2xl font-bold text-gray-800 mb-2">サービス一覧</h2>
+            <p className="text-xs sm:text-sm text-gray-600">LinkMeの全サービスをチェック</p>
+          </div>
+          
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6">
+            {/* Main Service Link */}
+            <Link href="/" className="group">
+              <div className="bg-white rounded-xl p-4 sm:p-6 shadow-sm border border-pink-100 hover:shadow-md transition-all duration-300 hover:border-pink-200">
+                <div className="flex items-center space-x-3 sm:space-x-4 mb-3">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-pink-100 rounded-full flex items-center justify-center">
+                    <span className="text-xl sm:text-2xl">💫</span>
+                  </div>
+                  <div>
+                    <h3 className="text-sm sm:text-lg font-bold text-gray-800 group-hover:text-pink-500 transition-colors">LinkMe</h3>
+                    <p className="text-xs sm:text-sm text-pink-500">参加者向けサービス</p>
+                  </div>
+                </div>
+                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  あなたにぴったりのイベントが見つかる。AIマッチング技術で理想的な出会いを。
+                </p>
+              </div>
+            </Link>
+
+            {/* Hosts Link */}
+            <Link href="/hosts" className="group">
+              <div className="bg-white rounded-xl p-4 sm:p-6 shadow-sm border border-blue-100 hover:shadow-md transition-all duration-300 hover:border-blue-200">
+                <div className="flex items-center space-x-3 sm:space-x-4 mb-3">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                    <span className="text-xl sm:text-2xl">🎯</span>
+                  </div>
+                  <div>
+                    <h3 className="text-sm sm:text-lg font-bold text-gray-800 group-hover:text-blue-500 transition-colors">LinkMe for Hosts</h3>
+                    <p className="text-xs sm:text-sm text-blue-500">主催者向けサービス</p>
+                  </div>
+                </div>
+                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  質の高い参加者だけが集まるイベント主催を実現。AIマッチング技術で理想的な集客を。
+                </p>
+              </div>
+            </Link>
+          </div>
+        </div>
       </main>
 
       {/* Footer */}

@@ -315,6 +315,52 @@ export default function LinkMeHostsPage() {
             )}
           </div>
         </div>
+
+        {/* Cross Page Links */}
+        <div className="bg-gradient-to-r from-blue-50 to-pink-50 rounded-xl sm:rounded-3xl p-4 sm:p-8 mt-6 sm:mt-12 shadow-sm border border-blue-100">
+          <div className="text-center mb-4 sm:mb-6">
+            <h2 className="text-lg sm:text-2xl font-bold text-gray-800 mb-2">その他のサービス</h2>
+            <p className="text-xs sm:text-sm text-gray-600">LinkMeの全サービスをチェック</p>
+          </div>
+          
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6">
+            {/* Main Service Link */}
+            <Link href="/" className="group">
+              <div className="bg-white rounded-xl p-4 sm:p-6 shadow-sm border border-pink-100 hover:shadow-md transition-all duration-300 hover:border-pink-200">
+                <div className="flex items-center space-x-3 sm:space-x-4 mb-3">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-pink-100 rounded-full flex items-center justify-center">
+                    <span className="text-xl sm:text-2xl">💫</span>
+                  </div>
+                  <div>
+                    <h3 className="text-sm sm:text-lg font-bold text-gray-800 group-hover:text-pink-500 transition-colors">LinkMe</h3>
+                    <p className="text-xs sm:text-sm text-pink-500">参加者向けサービス</p>
+                  </div>
+                </div>
+                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  あなたにぴったりのイベントが見つかる。AIマッチング技術で理想的な出会いを。
+                </p>
+              </div>
+            </Link>
+
+            {/* FAQ Link */}
+            <Link href="/faq" className="group">
+              <div className="bg-white rounded-xl p-4 sm:p-6 shadow-sm border border-blue-100 hover:shadow-md transition-all duration-300 hover:border-blue-200">
+                <div className="flex items-center space-x-3 sm:space-x-4 mb-3">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                    <span className="text-xl sm:text-2xl">❓</span>
+                  </div>
+                  <div>
+                    <h3 className="text-sm sm:text-lg font-bold text-gray-800 group-hover:text-blue-500 transition-colors">よくある質問</h3>
+                    <p className="text-xs sm:text-sm text-blue-500">FAQ・サポート</p>
+                  </div>
+                </div>
+                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  LinkMeについてのよくあるご質問と回答。安心してサービスをご利用いただけます。
+                </p>
+              </div>
+            </Link>
+          </div>
+        </div>
       </main>
 
       {/* Footer */}
